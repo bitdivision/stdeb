@@ -1441,7 +1441,7 @@ def build_dsc(debinfo,
                     cwd=dist_dir)
 
 CHANGELOG_FILE = """\
-%(source)s (%(full_version)s) %(distname)s; urgency=low
+%(source)s (%(full_version)s) %(distname)s; urgency=high
 
   * source package automatically created by stdeb %(stdeb_version)s
 
